@@ -5,7 +5,7 @@ Summary:	Domoticz Home automation system
 
 License:	GNU GPL 3
 URL:		http://www.domoticz.com
-Source0:	https://github.com/domoticz/domoticz/archive/%{version}.zip
+Source0:	https://github.com/domoticz/domoticz/archive/%{version}.tar.gz#/%{name}-%{version}.tar.gz
 
 BuildRequires:	make cmake gcc gcc-c++
 BuildRequires:	boost-devel
