@@ -8,6 +8,7 @@ URL:		http://www.domoticz.com
 Source0:	https://github.com/domoticz/domoticz/archive/%{version}.tar.gz#/%{name}-%{version}.tar.gz
 
 BuildRequires:	make cmake gcc gcc-c++
+BuildRequires:	git
 BuildRequires:	boost-devel
 BuildRequires:	openssl-devel
 BuildRequires:	curl-devel
